@@ -1,0 +1,303 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.devopsusach2020:DevOpsUsach2020 >-----------------
+[INFO] Building DevOpsUsach2020 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) > test-compile @ DevOpsUsach2020 >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) < test-compile @ DevOpsUsach2020 <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) @ DevOpsUsach2020 ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 12:44:16.659  INFO 2649 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Air-de-Daniel.local with PID 2649 (/Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven/build/classes started by dmorales in /Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven)
+2020-11-25 12:44:16.663  INFO 2649 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 12:44:16.758  INFO 2649 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-25 12:44:16.758  INFO 2649 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-25 12:44:18.123  INFO 2649 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 12:44:18.149  INFO 2649 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 12:44:18.149  INFO 2649 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 12:44:18.291  INFO 2649 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-25 12:44:18.291  INFO 2649 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1533 ms
+2020-11-25 12:44:18.527  INFO 2649 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 12:44:18.839  WARN 2649 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 12:44:18.869  WARN 2649 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 12:44:18.870  INFO 2649 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 12:44:18.872  INFO 2649 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 12:44:18.891  INFO 2649 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 12:44:18.896 ERROR 2649 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.801 s
+[INFO] Finished at: 2020-11-25T12:44:18-03:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.devopsusach2020:DevOpsUsach2020 >-----------------
+[INFO] Building DevOpsUsach2020 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) > test-compile @ DevOpsUsach2020 >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) < test-compile @ DevOpsUsach2020 <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) @ DevOpsUsach2020 ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 12:48:16.901  INFO 2721 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Air-de-Daniel.local with PID 2721 (/Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven/build/classes started by dmorales in /Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven)
+2020-11-25 12:48:16.904  INFO 2721 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 12:48:16.994  INFO 2721 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-25 12:48:16.994  INFO 2721 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-25 12:48:18.294  INFO 2721 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 12:48:18.318  INFO 2721 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 12:48:18.319  INFO 2721 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 12:48:18.459  INFO 2721 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-25 12:48:18.460  INFO 2721 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1465 ms
+2020-11-25 12:48:18.693  INFO 2721 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 12:48:18.966  WARN 2721 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-11-25 12:48:18.991  WARN 2721 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2020-11-25 12:48:18.992  INFO 2721 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-25 12:48:18.995  INFO 2721 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-25 12:48:19.009  INFO 2721 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-25 12:48:19.011 ERROR 2721 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.689 s
+[INFO] Finished at: 2020-11-25T12:48:19-03:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.devopsusach2020:DevOpsUsach2020 >-----------------
+[INFO] Building DevOpsUsach2020 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.3.4.RELEASE:stop (default-cli) @ DevOpsUsach2020 ---
+[INFO] Stopping application...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.490 s
+[INFO] Finished at: 2020-11-25T12:51:36-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.3.4.RELEASE:stop (default-cli) on project DevOpsUsach2020: Spring application lifecycle JMX bean not found (fork is null). Could not stop application gracefully: org.springframework.boot:type=Admin,name=SpringApplication -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.devopsusach2020:DevOpsUsach2020 >-----------------
+[INFO] Building DevOpsUsach2020 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) > test-compile @ DevOpsUsach2020 >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) < test-compile @ DevOpsUsach2020 <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) @ DevOpsUsach2020 ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 13:02:02.879  INFO 2918 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Air-de-Daniel.local with PID 2918 (/Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven/build/classes started by dmorales in /Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven)
+2020-11-25 13:02:02.882  INFO 2918 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 13:02:02.982  INFO 2918 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-25 13:02:02.983  INFO 2918 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-25 13:02:04.715  INFO 2918 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 13:02:04.742  INFO 2918 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 13:02:04.742  INFO 2918 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 13:02:04.887  INFO 2918 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-25 13:02:04.887  INFO 2918 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1904 ms
+2020-11-25 13:02:05.177  INFO 2918 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 13:02:05.577  INFO 2918 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 13:02:05.648  INFO 2918 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 13:02:05.661  INFO 2918 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 3.752 seconds (JVM running for 4.612)
+2020-11-25 13:04:11.557  INFO 2918 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 13:04:11.559  INFO 2918 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 13:04:11.579  INFO 2918 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-11-25 13:04:11.666  INFO 2918 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:39 min
+[INFO] Finished at: 2020-11-25T13:04:38-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) on project DevOpsUsach2020: Application finished with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.devopsusach2020:DevOpsUsach2020 >-----------------
+[INFO] Building DevOpsUsach2020 0.0.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) > test-compile @ DevOpsUsach2020 >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ DevOpsUsach2020 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ DevOpsUsach2020 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) < test-compile @ DevOpsUsach2020 <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) @ DevOpsUsach2020 ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.4.RELEASE)
+
+2020-11-25 14:02:27.048  INFO 3640 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Starting DevOpsUsach2020Application on MacBook-Air-de-Daniel.local with PID 3640 (/Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven/build/classes started by dmorales in /Users/dmorales/Documents/diplomadodevops2020/tallerjob_jenkins/ejemplo-maven)
+2020-11-25 14:02:27.051  INFO 3640 --- [  restartedMain] c.d.DevOpsUsach2020Application           : No active profile set, falling back to default profiles: default
+2020-11-25 14:02:27.146  INFO 3640 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-25 14:02:27.146  INFO 3640 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-25 14:02:29.088  INFO 3640 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-25 14:02:29.121  INFO 3640 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-25 14:02:29.122  INFO 3640 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-25 14:02:29.307  INFO 3640 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-25 14:02:29.307  INFO 3640 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2160 ms
+2020-11-25 14:02:29.751  INFO 3640 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-25 14:02:30.127  INFO 3640 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-25 14:02:30.206  INFO 3640 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-25 14:02:30.218  INFO 3640 --- [  restartedMain] c.d.DevOpsUsach2020Application           : Started DevOpsUsach2020Application in 3.791 seconds (JVM running for 4.536)
+2020-11-25 14:02:37.218  INFO 3640 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-25 14:02:37.220  INFO 3640 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-25 14:02:37.235  INFO 3640 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-11-25 14:02:37.333  INFO 3640 --- [nio-8081-exec-1] devops.subnivel.Control                  : Proceso exitoso de prueba
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:07 min
+[INFO] Finished at: 2020-11-25T14:04:31-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.3.4.RELEASE:run (default-cli) on project DevOpsUsach2020: Application finished with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
