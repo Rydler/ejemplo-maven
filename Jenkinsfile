@@ -23,6 +23,15 @@ pipeline {
                 }
             }
         }
+
+        stage('Sonarqube') {
+            steps {
+                withSonarQubeEnv('Sonar') { // You can override the credential to be used
+                    sh './mvnw org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar'
+                }
+            }
+        }
+
         stage('Run') {
             steps {
                 dir('/Users/dmorales/Documents/diplomadodevops2020/ejemplo-maven'){
