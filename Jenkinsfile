@@ -4,23 +4,17 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                dir('/Users/dmorales/Documents/diplomadodevops2020/ejemplo-maven'){
-                    sh './mvnw clean compile -e'
-                }
+                sh './mvnw clean compile -e'
             }
         }
         stage('Unit Test') {
             steps {
-                dir('/Users/dmorales/Documents/diplomadodevops2020/ejemplo-maven'){
-                    sh './mvnw clean test -e'
-                }
+                sh './mvnw clean test -e'
             }
         }
         stage('Package') {
             steps {
-                dir('/Users/dmorales/Documents/diplomadodevops2020/ejemplo-maven'){
-                    sh './mvnw clean package -e'
-                }
+                sh './mvnw clean package -e'
             }
         }
 
@@ -34,21 +28,17 @@ pipeline {
 
         stage('Run') {
             steps {
-                dir('/Users/dmorales/Documents/diplomadodevops2020/ejemplo-maven'){
-                    sh 'nohup bash mvnw spring-boot:run &'
-                }
+                sh 'nohup bash mvnw spring-boot:run &'
             }
         }
         stage('Test') {
             steps {
                 script{
-                    dir('/Users/dmorales/Documents/diplomadodevops2020/ejemplo-maven'){
-                        sleep 60
-                        final String url = 'http://localhost:8081/rest/mscovid/test?msg=testing'
-                        final String response = sh(script: "curl -X GET $url", returnStdout: true).trim()
+                    sleep 60
+                    final String url = 'http://localhost:8081/rest/mscovid/test?msg=testing'
+                    final String response = sh(script: "curl -X GET $url", returnStdout: true).trim()
 
-                        echo response
-                    }
+                    echo response
                 }
             }
         }
